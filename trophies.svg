@@ -1,55 +1,54 @@
-<svg width="820" height="180" viewBox="0 0 820 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-    @keyframes popIn { 0% { transform: scale(0); opacity: 0; } 80% { transform: scale(1.1); } 100% { transform: scale(1); opacity: 1; } }
-    @keyframes shine { 0% { transform: translateX(-100%) skewX(-45deg); } 100% { transform: translateX(200%) skewX(-45deg); } }
-    .bg { fill: #111; stroke: #333; stroke-width: 2; rx: 12; }
-    .trophy-cell { fill: #1a1a24; stroke: #ff00ff; stroke-width: 1; rx: 8; opacity: 0; animation: popIn 0.5s ease-out forwards; }
-    .text { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; fill: #eee; }
-    .title { font-size: 14px; font-weight: bold; text-anchor: middle; }
-    .sub { font-size: 12px; fill: #aaa; text-anchor: middle; }
-    .holo { fill: url(#holoGrad); animation: shine 3s infinite; mix-blend-mode: overlay; }
-</style>
-<defs>
-    <linearGradient id="holoGrad" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="transparent"/>
-        <stop offset="50%" stop-color="#fff"/>
-        <stop offset="100%" stop-color="transparent"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 230" width="495" height="230">
+  <defs>
+    <linearGradient id="tr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08070d"/>
+      <stop offset="100%" stop-color="#161129"/>
     </linearGradient>
-</defs>
-<rect width="820" height="180" class="bg" />
-
-<g transform="translate(20, 20)">
-    <!-- Trophy 1 -->
-    <g transform="translate(0, 0)" style="animation-delay: 0.1s;">
-        <rect width="180" height="140" class="trophy-cell" />
-        <rect width="180" height="140" class="holo" />
-        <text x="90" y="40" font-size="30" text-anchor="middle">🏆</text>
-        <text x="90" y="80" class="text title" fill="#ffbd2e">Pull Shark</text>
-        <text x="90" y="105" class="text sub">Merged 100+ PRs</text>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;800&amp;display=swap');
+    .tr-title { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 800; fill: #ffffff; }
+    .tr-name { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 800; fill: #ffffff; }
+    .tr-sub { font-family: 'Inter', sans-serif; font-size: 9px; font-weight: 600; fill: #a0aec0; }
+  </style>
+  <rect width="495" height="230" rx="14" fill="url(#tr-bg)" stroke="#7209b7" stroke-width="1.5"/>
+  <text x="25" y="32" class="tr-title">🏆 Developer Achievements &amp; Badges</text>
+  <g transform="translate(20, 48)">
+    <g transform="translate(0, 0)">
+      <rect width="145" height="75" rx="10" fill="#120c1f" stroke="#ff2a85" stroke-width="1.2"/>
+      <text x="72" y="28" font-size="22" text-anchor="middle">🏆</text>
+      <text x="72" y="48" class="tr-name" text-anchor="middle">Master Coder</text>
+      <text x="72" y="62" class="tr-sub" fill="#ff2a85" text-anchor="middle">Full Stack Expert</text>
     </g>
-    <!-- Trophy 2 -->
-    <g transform="translate(200, 0)" style="animation-delay: 0.3s;">
-        <rect width="180" height="140" class="trophy-cell" />
-        <rect width="180" height="140" class="holo" />
-        <text x="90" y="40" font-size="30" text-anchor="middle">🌟</text>
-        <text x="90" y="80" class="text title" fill="#00ffcc">Star Struck</text>
-        <text x="90" y="105" class="text sub">Earned 100+ Stars</text>
+    <g transform="translate(155, 0)">
+      <rect width="145" height="75" rx="10" fill="#120c1f" stroke="#00f0ff" stroke-width="1.2"/>
+      <text x="72" y="28" font-size="22" text-anchor="middle">⚡</text>
+      <text x="72" y="48" class="tr-name" text-anchor="middle">Clean Code Ninja</text>
+      <text x="72" y="62" class="tr-sub" fill="#00f0ff" text-anchor="middle">99% Standard</text>
     </g>
-    <!-- Trophy 3 -->
-    <g transform="translate(400, 0)" style="animation-delay: 0.5s;">
-        <rect width="180" height="140" class="trophy-cell" />
-        <rect width="180" height="140" class="holo" />
-        <text x="90" y="40" font-size="30" text-anchor="middle">🚀</text>
-        <text x="90" y="80" class="text title" fill="#ff00ff">Galaxy Brain</text>
-        <text x="90" y="105" class="text sub">20+ Discussions</text>
+    <g transform="translate(310, 0)">
+      <rect width="145" height="75" rx="10" fill="#120c1f" stroke="#ffd166" stroke-width="1.2"/>
+      <text x="72" y="28" font-size="22" text-anchor="middle">🔥</text>
+      <text x="72" y="48" class="tr-name" text-anchor="middle">Commit Streak</text>
+      <text x="72" y="62" class="tr-sub" fill="#ffd166" text-anchor="middle">365 Days Active</text>
     </g>
-    <!-- Trophy 4 -->
-    <g transform="translate(600, 0)" style="animation-delay: 0.7s;">
-        <rect width="180" height="140" class="trophy-cell" />
-        <rect width="180" height="140" class="holo" />
-        <text x="90" y="40" font-size="30" text-anchor="middle">🥇</text>
-        <text x="90" y="80" class="text title" fill="#f1e05a">Golden Commit</text>
-        <text x="90" y="105" class="text sub">Code God</text>
+    <g transform="translate(0, 85)">
+      <rect width="145" height="75" rx="10" fill="#120c1f" stroke="#06d6a0" stroke-width="1.2"/>
+      <text x="72" y="28" font-size="22" text-anchor="middle">📱</text>
+      <text x="72" y="48" class="tr-name" text-anchor="middle">Flutter Architect</text>
+      <text x="72" y="62" class="tr-sub" fill="#06d6a0" text-anchor="middle">Mobile Lead</text>
     </g>
-</g>
+    <g transform="translate(155, 85)">
+      <rect width="145" height="75" rx="10" fill="#120c1f" stroke="#b5179e" stroke-width="1.2"/>
+      <text x="72" y="28" font-size="22" text-anchor="middle">🚀</text>
+      <text x="72" y="48" class="tr-name" text-anchor="middle">Open Source</text>
+      <text x="72" y="62" class="tr-sub" fill="#b5179e" text-anchor="middle">Active Contributor</text>
+    </g>
+    <g transform="translate(310, 85)">
+      <rect width="145" height="75" rx="10" fill="#120c1f" stroke="#ffca28" stroke-width="1.2"/>
+      <text x="72" y="28" font-size="22" text-anchor="middle">☕</text>
+      <text x="72" y="48" class="tr-name" text-anchor="middle">Coffee Powered</text>
+      <text x="72" y="62" class="tr-sub" fill="#ffca28" text-anchor="middle">Infinite Energy</text>
+    </g>
+  </g>
 </svg>

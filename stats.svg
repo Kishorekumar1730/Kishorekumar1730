@@ -1,34 +1,69 @@
-<svg width="450" height="250" viewBox="0 0 450 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>
-    .bg { fill: #111; stroke: #333; stroke-width: 2; rx: 12; }
-    .text { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; fill: #eee; }
-    .title { font-size: 18px; font-weight: bold; fill: #ff00ff; }
-    .label { font-size: 14px; fill: #aaa; }
-    .value { font-size: 14px; font-weight: bold; fill: #00ffcc; text-anchor: end; }
-    @keyframes fillBar { from { stroke-dashoffset: 200; } to { stroke-dashoffset: 0; } }
-    @keyframes slideIn { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
-    .bar-bg { stroke: #333; stroke-width: 8; stroke-linecap: round; }
-    .bar-fg { stroke: #7f00ff; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 200; stroke-dashoffset: 200; animation: fillBar 1.5s ease-out forwards; }
-    .row { opacity: 0; animation: slideIn 0.5s ease-out forwards; }
-</style>
-<rect width="450" height="250" class="bg" />
-<text x="25" y="40" class="title text">GitHub Statistics</text>
-<g transform="translate(25, 70)" class="row" style="animation-delay: 0.1s;">
-    <text x="0" y="15" class="label text">Total Stars Earned</text>
-    <text x="400" y="15" class="value text">124</text>
-    <line x1="0" y1="25" x2="200" y2="25" class="bar-bg" />
-    <line x1="0" y1="25" x2="150" y2="25" class="bar-fg" style="stroke:#ff00ff;" />
-</g>
-<g transform="translate(25, 120)" class="row" style="animation-delay: 0.3s;">
-    <text x="0" y="15" class="label text">Total Commits (2026)</text>
-    <text x="400" y="15" class="value text">842</text>
-    <line x1="0" y1="25" x2="200" y2="25" class="bar-bg" />
-    <line x1="0" y1="25" x2="180" y2="25" class="bar-fg" style="stroke:#00ffcc;" />
-</g>
-<g transform="translate(25, 170)" class="row" style="animation-delay: 0.5s;">
-    <text x="0" y="15" class="label text">Total Pull Requests</text>
-    <text x="400" y="15" class="value text">47</text>
-    <line x1="0" y1="25" x2="200" y2="25" class="bar-bg" />
-    <line x1="0" y1="25" x2="90" y2="25" class="bar-fg" />
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 210" width="495" height="210">
+  <defs>
+    <linearGradient id="st-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08070d"/>
+      <stop offset="100%" stop-color="#161129"/>
+    </linearGradient>
+    <linearGradient id="st-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#7209b7"/>
+    </linearGradient>
+    <filter id="st-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&amp;family=Inter:wght@400;600;800&amp;display=swap');
+    .st-title { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 800; fill: #ffffff; }
+    .st-lbl { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #a0aec0; }
+    .st-val { font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 700; fill: #00f0ff; }
+  </style>
+  <rect width="495" height="210" rx="14" fill="url(#st-bg)" stroke="#7209b7" stroke-width="1.5"/>
+  <text x="25" y="35" class="st-title">⚡ GitHub Developer Stats</text>
+  <g transform="translate(85, 120)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#1f1a3a" stroke-width="8"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="url(#st-grad)" stroke-width="8" stroke-dasharray="314" stroke-dashoffset="314" filter="url(#st-glow)">
+      <animate attributeName="stroke-dashoffset" from="314" to="35" dur="2s" fill="freeze"/>
+    </circle>
+    <text x="0" y="8" font-family="'Inter', sans-serif" font-size="26" font-weight="900" fill="#ff2a85" text-anchor="middle" filter="url(#st-glow)">S+</text>
+    <text x="0" y="24" font-family="'Fira Code', monospace" font-size="9" fill="#a0aec0" text-anchor="middle">TOP 1%</text>
+  </g>
+  <g transform="translate(175, 60)">
+    <g transform="translate(0, 0)">
+      <text x="0" y="12" class="st-lbl">Total Commits</text>
+      <text x="290" y="12" class="st-val" text-anchor="end">1,480+</text>
+      <rect y="20" width="290" height="6" rx="3" fill="#1f1a3a"/>
+      <rect y="20" width="0" height="6" rx="3" fill="#ff2a85">
+        <animate attributeName="width" from="0" to="270" dur="1.5s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(0, 35)">
+      <text x="0" y="12" class="st-lbl">Pull Requests</text>
+      <text x="290" y="12" class="st-val" text-anchor="end">195+</text>
+      <rect y="20" width="290" height="6" rx="3" fill="#1f1a3a"/>
+      <rect y="20" width="0" height="6" rx="3" fill="#b5179e">
+        <animate attributeName="width" from="0" to="240" dur="1.7s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(0, 70)">
+      <text x="0" y="12" class="st-lbl">Issues &amp; Contributions</text>
+      <text x="290" y="12" class="st-val" text-anchor="end">340+</text>
+      <rect y="20" width="290" height="6" rx="3" fill="#1f1a3a"/>
+      <rect y="20" width="0" height="6" rx="3" fill="#00f0ff">
+        <animate attributeName="width" from="0" to="280" dur="1.9s" fill="freeze"/>
+      </rect>
+    </g>
+    <g transform="translate(0, 105)">
+      <text x="0" y="12" class="st-lbl">Current Streak</text>
+      <text x="290" y="12" class="st-val" text-anchor="end" fill="#ffd166">🔥 365 Days</text>
+      <rect y="20" width="290" height="6" rx="3" fill="#1f1a3a"/>
+      <rect y="20" width="0" height="6" rx="3" fill="#ffd166">
+        <animate attributeName="width" from="0" to="290" dur="2.1s" fill="freeze"/>
+      </rect>
+    </g>
+  </g>
 </svg>
