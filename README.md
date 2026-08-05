@@ -2,19 +2,56 @@
 
 <!-- AUTO-SWITCHING THEME BANNER -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-  <img alt="Kishorekumar V Premium Cyber Banner" src="banner.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
+  <img alt="Kishorekumar V Premium Cyber Banner" src="./banner.svg?v=2" width="100%">
 </picture>
 
-<br/><br/>
+</div>
 
-<!-- REACT BITS STYLE LANYARD DEVELOPER BADGE -->
+<br/>
+
+<!-- SIDE-BY-SIDE LANYARD ID BADGE & FEATURED SHOWCASE TABLE -->
+<table align="center" border="0" width="100%">
+<tr>
+<td width="38%" align="center" valign="middle">
+
+<!-- 🪪 React Bits Swinging Lanyard ID Badge -->
 <a href="https://github.com/Kishorekumar1730">
-  <img src="lanyard.svg?v=1" alt="Kishorekumar V Lanyard ID Badge" width="400">
+  <img src="./lanyard.svg?v=2" alt="Kishorekumar V ID Badge" width="340"/>
 </a>
 
-<br/><br/>
+</td>
+<td width="62%" valign="top">
+
+### 🚀 Featured Projects & Showcase
+
+| ⚡ Project | 💻 Tech Stack | ⭐ Stars |
+|:---|:---:|:---:|
+| [🚀 Full Stack Web Platform](https://github.com/Kishorekumar1730) | `React` `Node.js` `MongoDB` | 42 |
+| [📱 Cross-Platform Mobile App](https://github.com/Kishorekumar1730) | `Flutter` `Dart` `Firebase` | 28 |
+| [🛡️ RESTful API Backend Engine](https://github.com/Kishorekumar1730) | `Node.js` `Express` `REST` | 19 |
+| [⚡ Cyber Developer Portfolio](https://github.com/Kishorekumar1730) | `HTML` `CSS` `JavaScript` | 35 |
+
+<br/>
+
+> ☕ *"Turning coffee into clean code since day one."*
+
+<br/>
+
+```yaml
+developer_status:
+  name: Kishorekumar V
+  role: Full Stack Developer
+  availability: "Open for Opportunities & Projects"
+  core_focus: "Web Apps • Mobile Engines • Cloud APIs"
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 <!-- VISITOR COUNTER & SOCIAL BADGES -->
 <p align="center">
@@ -29,25 +66,6 @@
     <img src="https://img.shields.io/badge/GitHub-Kishorekumar1730-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
   </a>
 </p>
-
-</div>
-
----
-
-### 👨‍💻 About Me
-
-```yaml
-developer:
-  name: Kishorekumar V
-  role: Full Stack Developer
-  location: India
-  fun_tagline: "Turning coffee into clean code since day one."
-  passions:
-    - Building scalable web & mobile apps
-    - Designing responsive modern UI/UX systems
-    - Crafting high-performance REST APIs
-    - Continuous learning & open source contribution
-```
 
 ---
 
@@ -66,30 +84,16 @@ developer:
 
 ---
 
-### 🚀 Featured Projects
-
-<div align="center">
-
-| Project | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| ⚡ **Full Stack Web Platform** | React, Node.js, MongoDB | Scalable web application with real-time state management and authentication. |
-| 📱 **Cross-Platform Mobile App** | Flutter, Firebase, REST API | High-performance mobile application with smooth UI animations and offline cache. |
-| 🛡️ **RESTful API Backend** | Node.js, Express, MongoDB | Modular REST API with secure middleware, rate limiting, and database indexing. |
-
-</div>
-
----
-
 ### 📊 Developer Metrics & Local Achievements
 
 <div align="center">
 
-<img src="stats.svg?v=1" alt="Local Animated Stats" width="48%">
-<img src="langs.svg?v=1" alt="Local Animated Languages" width="48%">
+<img src="./stats.svg?v=2" alt="Local Animated Stats" width="48%">
+<img src="./langs.svg?v=2" alt="Local Animated Languages" width="48%">
 
 <br/><br/>
 
-<img src="trophies.svg?v=1" alt="Local Animated Trophies" width="100%">
+<img src="./trophies.svg?v=2" alt="Local Animated Trophies" width="100%">
 
 </div>
 
@@ -100,9 +104,9 @@ developer:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=1">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=2">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=2" width="100%">
 </picture>
 
 </div>
