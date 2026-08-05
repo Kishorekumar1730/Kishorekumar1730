@@ -2,9 +2,9 @@
 
 <!-- AUTO-SWITCHING THEME BANNER -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
-  <img alt="Kishorekumar V Premium Cyber Banner" src="./banner.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+  <img alt="Kishorekumar V Premium Cyber Banner" src="./banner.svg?v=3" width="100%">
 </picture>
 
 </div>
@@ -18,7 +18,7 @@
 
 <!-- 🪪 React Bits Swinging Lanyard ID Badge -->
 <a href="https://github.com/Kishorekumar1730">
-  <img src="./lanyard.svg?v=2" alt="Kishorekumar V ID Badge" width="340"/>
+  <img src="./lanyard.svg?v=3" alt="Kishorekumar V ID Badge" width="340"/>
 </a>
 
 </td>
@@ -88,12 +88,12 @@ developer_status:
 
 <div align="center">
 
-<img src="./stats.svg?v=2" alt="Local Animated Stats" width="48%">
-<img src="./langs.svg?v=2" alt="Local Animated Languages" width="48%">
+<img src="./stats.svg?v=3" alt="Local Animated Stats" width="48%">
+<img src="./langs.svg?v=3" alt="Local Animated Languages" width="48%">
 
 <br/><br/>
 
-<img src="./trophies.svg?v=2" alt="Local Animated Trophies" width="100%">
+<img src="./trophies.svg?v=3" alt="Local Animated Trophies" width="100%">
 
 </div>
 
@@ -104,9 +104,9 @@ developer_status:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=2">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=3">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Kishorekumar1730/Kishorekumar1730/output/github-contribution-grid-snake.svg?v=3" width="100%">
 </picture>
 
 </div>
