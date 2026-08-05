@@ -1,0 +1,38 @@
+<svg width="350" height="250" viewBox="0 0 350 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .bg { fill: #111; stroke: #333; stroke-width: 2; rx: 12; }
+    .text { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; fill: #eee; }
+    .title { font-size: 18px; font-weight: bold; fill: #00ffcc; }
+    .lang { font-size: 14px; font-weight: bold; }
+    @keyframes progress { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+    .circ-bg { fill: none; stroke: #333; stroke-width: 10; }
+    .circ-fg { fill: none; stroke-width: 10; stroke-linecap: round; stroke-dasharray: 100 100; stroke-dashoffset: 100; animation: progress 1.5s ease-out forwards; transform: rotate(-90deg); transform-origin: 50% 50%; }
+</style>
+<rect width="350" height="250" class="bg" />
+<text x="25" y="40" class="title text">Top Languages</text>
+<g transform="translate(50, 100)">
+    <circle cx="40" cy="40" r="30" class="circ-bg" />
+    <circle cx="40" cy="40" r="30" class="circ-fg" style="stroke: #f1e05a; stroke-dasharray: 60 100; animation-delay: 0.1s;" />
+    <text x="40" y="45" text-anchor="middle" class="text lang">JS</text>
+</g>
+<g transform="translate(140, 100)">
+    <circle cx="40" cy="40" r="30" class="circ-bg" />
+    <circle cx="40" cy="40" r="30" class="circ-fg" style="stroke: #3178c6; stroke-dasharray: 25 100; animation-delay: 0.3s;" />
+    <text x="40" y="45" text-anchor="middle" class="text lang">TS</text>
+</g>
+<g transform="translate(230, 100)">
+    <circle cx="40" cy="40" r="30" class="circ-bg" />
+    <circle cx="40" cy="40" r="30" class="circ-fg" style="stroke: #00b4ab; stroke-dasharray: 15 100; animation-delay: 0.5s;" />
+    <text x="40" y="45" text-anchor="middle" class="text lang">Dart</text>
+</g>
+<g transform="translate(140, 190)">
+    <rect x="0" y="0" width="10" height="10" fill="#f1e05a" rx="2" />
+    <text x="15" y="10" class="text" font-size="12">JavaScript 60%</text>
+    
+    <rect x="0" y="15" width="10" height="10" fill="#3178c6" rx="2" />
+    <text x="15" y="25" class="text" font-size="12">TypeScript 25%</text>
+    
+    <rect x="0" y="30" width="10" height="10" fill="#00b4ab" rx="2" />
+    <text x="15" y="40" class="text" font-size="12">Dart 15%</text>
+</g>
+</svg>

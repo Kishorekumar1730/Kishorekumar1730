@@ -1,0 +1,34 @@
+<svg width="450" height="250" viewBox="0 0 450 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .bg { fill: #111; stroke: #333; stroke-width: 2; rx: 12; }
+    .text { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; fill: #eee; }
+    .title { font-size: 18px; font-weight: bold; fill: #ff00ff; }
+    .label { font-size: 14px; fill: #aaa; }
+    .value { font-size: 14px; font-weight: bold; fill: #00ffcc; text-anchor: end; }
+    @keyframes fillBar { from { stroke-dashoffset: 200; } to { stroke-dashoffset: 0; } }
+    @keyframes slideIn { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
+    .bar-bg { stroke: #333; stroke-width: 8; stroke-linecap: round; }
+    .bar-fg { stroke: #7f00ff; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 200; stroke-dashoffset: 200; animation: fillBar 1.5s ease-out forwards; }
+    .row { opacity: 0; animation: slideIn 0.5s ease-out forwards; }
+</style>
+<rect width="450" height="250" class="bg" />
+<text x="25" y="40" class="title text">GitHub Statistics</text>
+<g transform="translate(25, 70)" class="row" style="animation-delay: 0.1s;">
+    <text x="0" y="15" class="label text">Total Stars Earned</text>
+    <text x="400" y="15" class="value text">124</text>
+    <line x1="0" y1="25" x2="200" y2="25" class="bar-bg" />
+    <line x1="0" y1="25" x2="150" y2="25" class="bar-fg" style="stroke:#ff00ff;" />
+</g>
+<g transform="translate(25, 120)" class="row" style="animation-delay: 0.3s;">
+    <text x="0" y="15" class="label text">Total Commits (2026)</text>
+    <text x="400" y="15" class="value text">842</text>
+    <line x1="0" y1="25" x2="200" y2="25" class="bar-bg" />
+    <line x1="0" y1="25" x2="180" y2="25" class="bar-fg" style="stroke:#00ffcc;" />
+</g>
+<g transform="translate(25, 170)" class="row" style="animation-delay: 0.5s;">
+    <text x="0" y="15" class="label text">Total Pull Requests</text>
+    <text x="400" y="15" class="value text">47</text>
+    <line x1="0" y1="25" x2="200" y2="25" class="bar-bg" />
+    <line x1="0" y1="25" x2="90" y2="25" class="bar-fg" />
+</g>
+</svg>
